@@ -1,0 +1,38 @@
+{
+  "name": "dragonage-compendia-ptBR",
+  "title": "Dragon AGE Compendia PT-BR",
+  "description": "Versão traduzida para Português (Brasil) do módulo Dragon AGE Compendia, compatível com Babele.",
+  "version": "1.0.0",
+  "author": "Haynex",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "esmodules": [],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "translations/pt-BR/dragonage-foci.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "dragonage-foci",
+      "label": "Dragon AGE Foci",
+      "path": "packs/dragonage-foci.db",
+      "entity": "Item",
+      "system": "dragonage"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "babele",
+      "type": "module",
+      "manifest": "https://foundryvtt.com/packages/babele",
+      "optional": false
+    }
+  ],
+  "url": "https://github.com/H4yn3x/dragonage-compendia-ptBR",
+  "manifest": "https://github.com/H4yn3x/dragonage-compendia-ptBR/raw/main/module.json",
+  "download": "https://github.com/H4yn3x/dragonage-compendia-ptBR/archive/refs/heads/main.zip"
+}
